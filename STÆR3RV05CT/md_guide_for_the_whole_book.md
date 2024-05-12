@@ -26,6 +26,52 @@ Stefnuhorn er hornið sem línustrikið myndar við jákvæða x-ásinn í hnita
 ## 2.3 Horn á milli vigra
 Hornið á milli tveggja vigra má finna með innfeldi þeirra.
 
+
+
+---
+
+
+# Testing the new data from ChatGPT
+
+
+
+## 2.3 Horn á milli vigra
+
+### Einfalt Dæmi:
+**Vigrarnir:** \( \vec{u} = (3, 4) \) og \( \vec{v} = (4, 3) \)
+
+1. **Reikna innfeldi \( \vec{u} \cdot \vec{v} \)**:
+   - \( \vec{u} \cdot \vec{v} = 3 \times 4 + 4 \times 3 = 12 + 12 = 24 \)
+
+2. **Reikna lengdir (norm) hvers vigurs**:
+   - \( |\vec{u}| = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = 5 \)
+   - \( |\vec{v}| = \sqrt{4^2 + 3^2} = \sqrt{16 + 9} = 5 \)
+
+3. **Reikna \( \cos(\theta) \)**:
+   - \( \cos(\theta) = \frac{24}{5 \times 5} = \frac{24}{25} \)
+
+4. **Finna \( \theta \)**:
+   - \( \theta = \cos^{-1}\left(\frac{24}{25}\right) \) (Notaðu reiknivél til að fá hornið í gráðum eða radíönum)
+
+### Flóknara Dæmi:
+**Vigrarnir:** \( \vec{a} = (1, 2, 3) \) og \( \vec{b} = (-4, 5, 6) \)
+
+1. **Reikna innfeldi \( \vec{a} \cdot \vec{b} \)**:
+   - \( \vec{a} \cdot \vec{b} = 1 \times -4 + 2 \times 5 + 3 \times 6 = -4 + 10 + 18 = 24 \)
+
+2. **Reikna lengdir (norm) hvers vigurs**:
+   - \( |\vec{a}| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{1 + 4 + 9} = \sqrt{14} \)
+   - \( |\vec{b}| = \sqrt{(-4)^2 + 5^2 + 6^2} = \sqrt{16 + 25 + 36} = \sqrt{77} \)
+
+3. **Reikna \( \cos(\theta) \)**:
+   - \( \cos(\theta) = \frac{24}{\sqrt{14} \times \sqrt{77}} \)
+
+4. **Finna \( \theta \)**:
+   - \( \theta = \cos^{-1}\left(\frac{24}{\sqrt{14} \times \sqrt{77}}\right) \) (Notaðu reiknivél til að fá hornið í gráðum eða radíönum)
+
+---
+
+
 ### Dæmi
 1. **Einfalt Dæmi**: Finndu hornið á milli \( \vec{a} = (1, 0) \) og \( \vec{b} = (0, 1) \).
    - Notaðu formúluna \( \cos(\theta) = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|} = \frac{0}{1 \times 1} = 0 \).
