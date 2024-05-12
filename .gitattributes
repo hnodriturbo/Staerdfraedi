@@ -1,0 +1,39 @@
+# Set default behavior for all files
+* text=auto
+
+# Line endings normalized for text files
+*.html text
+*.css text
+*.js text
+*.json text
+*.php text
+*.sql text
+*.scss text diff=scss
+*.js text eol=lf
+*.php text
+
+# Binary files - do not alter them
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.ai binary
+*.psd binary
+
+# Minified files treated as binary to avoid diff issues
+*.min.js binary
+*.min.css binary
+
+# Diff settings for specific file formats
+*.yml text diff=yaml
+*.config text diff=xml
+
+# Prevent certain files from being included in archive exports
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore
+
+# Performance optimizations
+documentation/* linguist-generated=true
+*.log linguist-detected=false
