@@ -1,3 +1,47 @@
+# Universal .gitignore File
+
+# My Own Added .gitignore files
+**/firebase_admin_service_key.json
+**/admin_sdk_service_key.json
+**/firebase-admin-sdk.json
+firebase_admin_service_key.json
+
+# My Own Added .gitignore files
+Afangi_3/Flask_Projects/TechVerse_Blog_Project/storage/admin_sdk_service_key.json
+Afangi_3/Flask_Projects/TechVerse_Blog_Project/firebase-admin-sdk.json
+
+# My Own Added .gitignore files
+Afangi_2/Timaverkefni_5/Timaverkefni_5_codes_and_videos.zip
+Afangi_2_V24/Timaverkefni_5/Timaverkefni_5_codes_and_videos.zip
+Afangi_2/Timaverkefni_5/verkefni_5_videos/
+Afangi_2_V24/Timaverkefni_5/verkefni_5_videos/
+
+
+####################################################################################################
+
+# All Other Files to be Ignored
+
+# Node modules
+node_modules/
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.json
+*.lock
+*.log
+
+# Package Managers and Dependency Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+Pipfile.lock
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,6 +49,10 @@ __pycache__/
 
 # C extensions
 *.so
+
+# Additional folders
+Other_Stuff/
+Bootstrap_independent/
 
 # Distribution / packaging
 .Python
@@ -28,8 +76,6 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -69,7 +115,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+/docs/_build/
 
 # PyBuilder
 target/
@@ -85,13 +131,9 @@ ipython_config.py
 .python-version
 
 # pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+# Pipfile.lock
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+# PEP 582
 __pypackages__/
 
 # Celery stuff
@@ -100,15 +142,6 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +160,140 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Log files
+*.log
+*.log.*
+
+# Binary files
+*.exe
+*.dll
+*.out
+*.obj
+*.app
+*.ipa
+*.apk
+
+# Temporary files
+*.tmp
+*.swp
+*.temp
+*.cache
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.orig
+*.save
+
+# Compression files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Miscellaneous
+*.key
+*.pem
+*.crt
+
+# Frontend build files
+public/build/
+.next/
+.nuxt/
+
+# Generated static assets
+out/
+
+# Environment Secrets
+.env.*
+.secret
+secrets.yml
+
+# Java-related
+*.class
+*.jar
+*.war
+*.ear
+
+# Go
+*.exe
+*.test
+/vendor/
+
+# Rust
+/target/
+*.rs.bk
+
+# C/C++
+*.dSYM/
+*.o
+*.obj
+*.a
+*.lo
+*.la
+*.ll
+*.s
+*.swp
+CMakeFiles/
+CTestTestfile.cmake
+
+# PHP
+/vendor/
+
+# Ruby
+*.gem
+/log/
+/tmp/
+
+# Android
+.gradle/
+/local.properties
+.idea/workspace.xml
+.idea/libraries
+/.cxx/
+
+# iOS
+*.xcodeproj/
+*.xcworkspace/
+Pods/
+
+# Database files
+*.sqlite3
+*.db
+
+# Logs
+*.log
+*.log.*
+*.log-*
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

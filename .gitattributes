@@ -1,7 +1,7 @@
 # Set default behavior for all files
 * text=auto
 
-# Line endings normalized for text files
+# Normalize text files to ensure consistent line endings across platforms
 *.html text
 *.css text
 *.js text
@@ -11,8 +11,11 @@
 *.scss text diff=scss
 *.js text eol=lf
 *.php text
+*.jsx text
+*.ts text
+*.tsx text
 
-# Binary files - do not alter them
+# Binary files - mark them so that Git doesn't try to handle them as text
 *.png binary
 *.jpg binary
 *.gif binary
@@ -21,7 +24,7 @@
 *.ai binary
 *.psd binary
 
-# Minified files treated as binary to avoid diff issues
+# Minified files should also be treated as binary to avoid diff issues
 *.min.js binary
 *.min.css binary
 
@@ -34,6 +37,9 @@
 .gitignore export-ignore
 README.md export-ignore
 
-# Performance optimizations
+# Performance optimizations for Linguist
 documentation/* linguist-generated=true
 *.log linguist-detected=false
+
+# Ensure certain custom settings for JavaScript files
+*.js eol=lf
